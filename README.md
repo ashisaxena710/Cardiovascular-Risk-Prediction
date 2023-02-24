@@ -2,32 +2,37 @@
 
 Cardiovascular Risk Prediction is a classification machine learning project. The dataset is from ongoing cardiovascular study  on residents of the town of Framingham, Massachutts. The classification goal is to predict whether the patient has a 10-year risk of failure coronary heart disease(CHD). The dataset provides the patient's information . It includes over 4000 records and 15 attributes. Each attribute is a potental risk factor. There are both demographic, behavioral, and medical risk factor.
 
-• Sex:- male or female("M" or "F")
+id : A unique identifier for each individual
 
-• Age:- Age of the patient
+age: Age of the individual in years
 
-• is_smoking:- whether or not the patient is a current smoker ("YES" or "NO")
+education: Level of education of the individual (categorical variable)
 
-• Cigs Per Day:- the number of cigarettes that the person smoked on average in one day
+sex: Gender of the individual (binary variable)
 
-• BP Meds:- whether or not the patient was on blood pressure medication
+is_smoking: Whether the individual is a smoker or not (binary variable)
 
-• Prevalent Stroke:- whether or not the patient had previously had a stroke
+cigsPerDay: Number of cigarettes smoked per day (continuous variable)
 
-• Prevalent Hyp:- whether or not the patient was hypertensive
+BPMeds: Whether the individual is on blood pressure medication or not (binary variable)
 
-• Diabetes:- whether or not the patient had diabetes (Nominal) Medical(current)
+prevalentStroke: Whether the individual has had a stroke in the past (binary variable)
 
-• Tot Chol:- total cholesterol level
+prevalentHyp: Whether the individual has hypertension (high blood pressure) or not (binary variable)
 
-• Sys BP:- systolic blood pressure
+diabetes: Whether the individual has diabetes or not (binary variable)
 
-• Dia BP:- diastolic blood pressure
+totChol: Total cholesterol levels of the individual (continuous variable)
 
-• BMI:- Body Mass Index
+sysBP: Systolic blood pressure of the individual (continuous variable)
 
-• Heart Rate:- heart rate
+diaBP: Diastolic blood pressure of the individual (continuous variable)
 
-• Glucose:- glucose level
+BMI: Body Mass Index of the individual (continuous variable)
 
-• TenYearCHD:- 10-year risk of coronary heart disease CHD(binary: “1”, means “Yes”, “0” means “No”)
+heartRate: Heart rate of the individual (continuous variable)
+
+glucose: Blood glucose level of the individual (continuous variable)
+
+TenYearCHD: The 10-year risk of developing coronary heart disease for the individual (binary variable)
+
